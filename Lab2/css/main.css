@@ -1,0 +1,136 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+body{
+    font-family:'Raleway',sans-serif
+}
+.form-control{
+    width:350px;
+    height:auto;
+    margin:50px auto 0;
+    padding:50px;
+    background-color:#EEE;
+    color:#333;
+    border:2px solid #C2D6FF;
+    border-radius:40px 0 40px 0
+}
+label{
+    font-size:15px;
+    font-weight:700
+}
+.data-selector{
+    background-repeat:no-repeat;
+    background-position:6px;
+    border:1px solid #DADADA;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:35px;
+    width:310px;
+    height:30px;
+    font-size:14px;
+    box-shadow:0 0 10px;
+    -webkit-box-shadow:0 0 10px;
+    /* For I.E */
+    -moz-box-shadow:0 0 10px;
+    /* For Mozilla Web Browser */
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    /* For I.E */
+    -moz-border-radius:5px
+    /* For Mozilla Web Browser */
+}
+input[type=text]{
+    background-repeat:no-repeat;
+    background-position:6px;
+    border:1px solid #DADADA;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:35px;
+    width:310px;
+    height:30px;
+    font-size:14px;
+    box-shadow:0 0 10px;
+    -webkit-box-shadow:0 0 10px;
+    /* For I.E */
+    -moz-box-shadow:0 0 10px;
+    /* For Mozilla Web Browser */
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    /* For I.E */
+    -moz-border-radius:5px
+    /* For Mozilla Web Browser */
+}
+input[type=date]{
+    background-repeat:no-repeat;
+    background-position:6px;
+    border:1px solid #DADADA;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:35px;
+    width:310px;
+    height:30px;
+    font-size:14px;
+    box-shadow:0 0 10px;
+    -webkit-box-shadow:0 0 10px;
+    /* For I.E */
+    -moz-box-shadow:0 0 10px;
+    /* For Mozilla Web Browser */
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    /* For I.E */
+    -moz-border-radius:5px
+    /* For Mozilla Web Browser */
+}
+input#submit {
+    background-color:#cc7a66;
+    border-radius:5px;
+    border:none;
+    padding:10px 25px;
+    color:#FFF;
+    text-shadow:1px 1px 1px #949494;
+    margin-left:120px
+}
+input#submit:hover{
+    background-color:#FF9980
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
